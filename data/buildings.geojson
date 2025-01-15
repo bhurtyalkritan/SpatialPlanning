@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "name": "Mock_Buildings",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Building A",
+        "HEIGHT": 50
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [ -77.03653, 38.897676 ],
+            [ -77.03600, 38.897700 ],
+            [ -77.03540, 38.897200 ],
+            [ -77.03620, 38.897000 ],
+            [ -77.03653, 38.897676 ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Building B",
+        "HEIGHT": 80
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [ -77.03710, 38.898000 ],
+            [ -77.03670, 38.898000 ],
+            [ -77.03670, 38.897700 ],
+            [ -77.03710, 38.897700 ],
+            [ -77.03710, 38.898000 ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Building C",
+        "HEIGHT": 100
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [ -77.03800, 38.898500 ],
+            [ -77.03750, 38.898300 ],
+            [ -77.03730, 38.898000 ],
+            [ -77.03800, 38.897800 ],
+            [ -77.03800, 38.898500 ]
+          ]
+        ]
+      }
+    }
+  ]
+}
